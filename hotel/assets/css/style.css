@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+  border:none;
+  cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Stolzl', sans-serif;
+}
+
+.body {
+    background-image: url(../imgs/bg.png);
+}
+
+.conteiner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.content_header {
+    padding-top: 20px;
+    display: flex;      
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.item_contacts {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.item_contacts_link {
+    transition: 0.5s;
+}
+
+.item_contacts_link:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #108ebc;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.site_title {
+    padding-bottom: 144px;
+}
+
+.main_title {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 64px;
+}
+
+.booking {
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    background: #3D324F;
+    gap: 10px;
+    border-radius: 8PX;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.booking:hover {
+    background: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.offers {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.offer {
+    display: flex;
+    padding: 20px 24px;
+    align-items: center;
+    gap: 28px;
+    border-radius: 16px;
+    background: var(--white-35, rgba(255, 255, 255, 0.35));
+    backdrop-filter: blur(6px);
+    width: 300px;
+    margin-right: 40px;
+}
+
+.title_offers {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.item_offer {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.rub {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rub::before {
+    content: '₽';
+    padding-right: 10px;
+    font-size: 23px;
+}
+
+.contact_inf {
+    display: flex;
+}
+
+#map {
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.list_inf{
+    color: #fff;
+    width: 636px;
+}
+
+.title_inf {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.item_inf_cont {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.tg {
+    margin-bottom: 50px;
+}
+
+.tg::before {
+    content: url(../logos/telegram.svg);
+    margin-right: 20px;
+}
+
+.smol_title_inf {
+    font-size: 24px;
+    margin-bottom: 25px; 
+}
+
+.item_inf_cont {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
